@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL-PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c849ac7c47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li> <a href="#home"> Home</a></li>
+                    <li> <a href="#about"> About</a></li>
+                    <li> <a href="#services"> Services</a></li>
+                    <li> <a href="#portfolio"> Portfolio</a></li>
+                    <li> <a href="#contact"> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p> UI/UX Designer</p>
+                <h1> Hi!, I am <span>Shivani Kasaudhan</span> <br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I’m Shivani Kasaudhan, a passionate UI/UX designer based in India. I love creating
+                        seamless and intuitive designs that provide an exceptional user experience. With my skills in
+                        design and a keen eye for detail, I ensure that every project I work on is a blend of
+                        functionality and creativity.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> C/C++/Python</span></li>
+                            <li><span> UI/UX</span><br>Designing Web/app interfaces </span></li>
+                            <li><span> Full stack development</span></li>
+                            <li><span> Git</span></li>
+                            <li><span> MySQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul class="experience-list">
+                            <li><span class="experience">Software Development Intern at BUEStock Fintech</span><br> June
+                                2024 - July 2024</li>
+                            <li><span class="experience">Full Stack Developer at Gemini Clone Project</span><br> Ongoing
+                            </li>
+                            <li><span class="experience">AI/ML Competition at TurboAI</span><br> November 2024</li>
+                            <li><span class="experience">Task Management Dashboard Project</span><br> November 2024 -
+                                December 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul class="education-list">
+                            <li><span class="education">B.Tech in Computer Science and Engineering (Data
+                                    Science)</span><br> KCC Institute of Technology and Management, Greater Noida<br>
+                                Expected Graduation: September 2026</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-paint-brush"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating beautiful and functional interfaces that offer a great user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Building responsive websites that are optimized for performance across devices.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-cogs"></i>
+                    <h2>App Maintenance</h2>
+
+                    <p>Providing regular updates and bug fixes to keep your app functioning smoothly and up to date.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <p>Take a look at some of my recent projects:</p>
+
+            <div class="work-list">
+
+                <!-- Project 1: Gemini Clone App -->
+                <div class="work">
+                    <img src="/images/work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>Gemini Clone App</h3>
+                        <p>This app was created using React and provides a user-friendly interface with advanced
+                            features,
+                            replicating the Gemini platform. It demonstrates my expertise in full-stack development and
+                            UI
+                            design.</p>
+                        <a href="https://github.com/kasaudhanshivani/gemini_clone" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Task Management Dashboard -->
+                <div class="work">
+                    <img src="/images/work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Task Management Dashboard</h3>
+                        <p>Designed and built a Task Management Dashboard using React and Redux. This project included
+                            features
+                            like task CRUD operations, filtering, and responsive UI/UX design, which was part of an
+                            internship
+                            selection process.</p>
+                        <a href="https://kasaudhanshivani.github.io/task-dashboard" target="_blank">View Live
+                            Project</a>
+                    </div>
+                </div>
+                <!-- Project 3: Login Page -->
+                <div class="work">
+                    <img src="/images/work-3.png" alt="Login Page">
+                    <div class="layer">
+
+                        <h3>Login Page</h3>
+                        <p>A simple and secure login page built with HTML, CSS, and JavaScript. This project is part of
+                            my
+                            portfolio to showcase basic authentication and user interface design.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Robo Speaker -->
+                <div class="work">
+                    <img src="/images/robo-speaker.jpg" alt="Robo Speaker">
+                    <div class="layer">
+                        <h3>Robo Speaker</h3>
+                        <p>A fun and interactive project where I developed a Robo Speaker using JavaScript. This project
+                            involved building a chatbot that could interact with users, making it an interesting
+                            showcase of AI
+                            and voice interaction technology.</p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Tic Tac Toe -->
+                <div class="work">
+                    <img src="/images/tic-tac-toe.jpg" alt="Tic Tac Toe Game">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>This is a classic game of Tic Tac Toe built with HTML, CSS, and JavaScript. The game features
+                            interactive gameplay, allowing two players to compete against each other.</p>
+                    </div>
+                </div>
+
+                <!-- Project 6: Rock, Paper, Scissors -->
+                <div class="work">
+                    <img src="/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors Game">
+                    <div class="layer">
+                        <h3>Rock, Paper, Scissors</h3>
+                        <p>Another fun project where I built the Rock, Paper, Scissors game using JavaScript. It allows
+                            players
+                            to play the game against the computer, demonstrating basic game logic and interaction.</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2>Get in touch</h2>
+                        <p>kasaudhanshivani027@gmail.com</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"> <i class="fab fa-facebook"></i></a>
+                        <a href="#"> <i class="fab fa-github"></i></a>
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                        <a href="#"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h2>Contact</h2>
+                    <p>If you would like to get in touch with me for a project, feel free to reach out!</p>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+
+                    </form>
+<span id="msg">hello </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzoQ6oBZ2w80m1MjTjo_LajW8szN8mC7frgJdYgfipPuTkcZkGLbLXz3F5nkNBlqVNA/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
