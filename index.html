@@ -14,14 +14,16 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="/images/logo.png" class="logo" alt="Logo">
+                <img src="/images/1.png" class="logo" alt="Logo">
                 <ul>
                     <li> <a href="#home"> Home</a></li>
                     <li> <a href="#about"> About</a></li>
                     <li> <a href="#services"> Services</a></li>
                     <li> <a href="#portfolio"> Portfolio</a></li>
                     <li> <a href="#contact"> Contact</a></li>
+                    <i class="fas fa-times"></i>
                 </ul>
+                <i class="fas fa-bars"></i>
             </nav>
             <div class="header-text">
                 <p> UI/UX Designer</p>
@@ -167,7 +169,7 @@
 
                 <!-- Project 4: Robo Speaker -->
                 <div class="work">
-                    <img src="/images/robo-speaker.jpg" alt="Robo Speaker">
+                    <img src="/images/robo_speaker.png" alt="Robo Speaker">
                     <div class="layer">
                         <h3>Robo Speaker</h3>
                         <p>A fun and interactive project where I developed a Robo Speaker using JavaScript. This project
@@ -179,7 +181,7 @@
 
                 <!-- Project 5: Tic Tac Toe -->
                 <div class="work">
-                    <img src="/images/tic-tac-toe.jpg" alt="Tic Tac Toe Game">
+                    <img src="/images/tic-tac-toe.png" alt="Tic Tac Toe Game">
                     <div class="layer">
                         <h3>Tic Tac Toe</h3>
                         <p>This is a classic game of Tic Tac Toe built with HTML, CSS, and JavaScript. The game features
@@ -189,7 +191,7 @@
 
                 <!-- Project 6: Rock, Paper, Scissors -->
                 <div class="work">
-                    <img src="/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors Game">
+                    <img src="/images/rock-paper-scisssor.png" alt="Rock Paper Scissors Game">
                     <div class="layer">
                         <h3>Rock, Paper, Scissors</h3>
                         <p>Another fun project where I built the Rock, Paper, Scissors game using JavaScript. It allows
@@ -206,34 +208,40 @@
             <div class="container">
                 <div class="row">
                     <div class="contact-left">
-                        <h2>Get in touch</h2>
-                        <p>kasaudhanshivani027@gmail.com</p>
-                    </div>
-                    <div class="social-icons">
-                        <a href="#"> <i class="fab fa-facebook"></i></a>
-                        <a href="#"> <i class="fab fa-github"></i></a>
-                        <a href="#"> <i class="fab fa-twitter"></i></a>
-                        <a href="#"> <i class="fab fa-instagram"></i></a>
-                        <a href="#"> <i class="fab fa-linkedin"></i></a>
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa fa-paper-plane" aria-hidden="true"></i>kasaudhanshivani027@gmail.com</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/shivani-kasaudhan-513422258
+"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/kasaudhanshivani
+"> <i class="fa-brands fa-github"></i></i></a>
+                            <a href="https://hackerrank.com/profile/kasaudhanshivan3"> <i
+                                    class="fa-brands fa-hackerrank"></i></a>
+                            <a href="https://x.com/shivanikas20583"> <i class="fa-solid fa-x"></i></a>
 
+                        </div>
                     </div>
-                </div>
-                <div class="contact-right">
-                    <h2>Contact</h2>
-                    <p>If you would like to get in touch with me for a project, feel free to reach out!</p>
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                        <input type="email" name="email" placeholder="Your Email" required>
-                        <textarea name="message" placeholder="Your Message" required></textarea>
-                        <button type="submit">Send Message</button>
 
-                    </form>
-<span id="msg">hello </span>
-                </div>
+
+                    <div class="contact-right">
+                        <h2>Contact</h2>
+                        <p>If you would like to get in touch with me for a project, feel free to reach out!</p>
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+
+                        </form>
+                    </div>
+                
             </div>
-        </div>
+        
     </div>
+<div class="copyright">
+    <p>  Copyright © Shivani made with <i class="fas fa-heart"></i> </p>
 
+</div>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -259,6 +267,7 @@
                 .then(response => console.log('Success!', response))
                 .catch(error => console.error('Error!', error.message))
         })
+        
     </script>
 </body>
 
